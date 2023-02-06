@@ -242,6 +242,12 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: rgba(0, 0, 0, 0.8);
 }
 
+.responsive {
+width: 50%;
+
+height: auto;
+}
+
 .text-color {
   color: rgb(247, 87, 87);
 }
@@ -1237,13 +1243,19 @@ h3.quote::before {
 
 .footer {
   padding-bottom: 10px;
+background-image: url(http://codex-themes.com/scalia/wp-content/uploads/2014/12/footer-background-011.jpg);
 }
 .footer .copyright a {
   font-weight: 600;
+ color: white;
 }
 
 .lh-35 {
   line-height: 35px;
+}
+
+.rrrt{
+color: white;
 }
 
 .logo {
@@ -1265,9 +1277,11 @@ h3.quote::before {
 
 .footer-btm {
   border-top: 1px solid rgba(0, 0, 0, 0.06);
+color: white;
 }
 
 .footer-socials li a {
+color: white;
   margin-left: 15px;
 }
 
