@@ -19,6 +19,18 @@ body {
   color: rgba(0, 0, 0, 0.65);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -133,6 +145,12 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: transparent;
   color: rgb(247, 87, 87);
 }
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  	
+}
 
 .btn-large {
   padding: 20px 45px;
@@ -242,11 +260,65 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: rgba(0, 0, 0, 0.8);
 }
 
+#example1 {
+  border: 2px solid red	;
+  background-image: url(https://www.roopyaa.com/assets_new/images/orange-bg.jpg);
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 90%;
+}
+
 .responsive {
 width: 40%;
 
 height: auto;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 90%;
+  max-width: 80%;
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 90%;
+  max-width: 40%;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.white-box { width: 500px; height: 100px; margin-top: 50px; margin-left: auto; margin-right: auto;   
+  
+background: rgba(255,255,255,0.9);
+padding: 30px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+
+.responsives {
+width: 95%;
+
+height: auto;
+}
+
 
 .text-color {
   color: rgb(247, 87, 87);
@@ -604,7 +676,7 @@ ul.dropdown-menu li {
 
 .intro-item i {
   font-size: 60px;
-  line-height: 60px;
+  line-height: 9	0px;
 }
 
 .color-one {
@@ -1247,7 +1319,7 @@ h3.quote::before {
 
 .footer {
   padding-bottom: 10px;
-background-image: url(https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675921903/yellow-watercolor-paper_cjaw9h.jpg);
+background-image: url(http://codex-themes.com/scalia/wp-content/uploads/2014/12/footer-background-011.jpg);
 }
 .footer .copyright a {
   font-weight: 600;
