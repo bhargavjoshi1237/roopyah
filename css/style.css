@@ -57,7 +57,7 @@ p {
 }
 
 .navbar-toggle .icon-bar {
-  background: rgb(247, 87, 87);
+  background: #ff0000;
 }
 
 input[type=email], input[type=password], input[type=text], input[type=tel] {
@@ -105,7 +105,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .btn-main, .btn-small, .btn-transparent {
-  background: rgb(247, 87, 87);
+  background: rgb(242, 72, 29);
   color: #fff;
   transition: all 0.2s ease;
 }
@@ -243,13 +243,17 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .responsive {
-width: 50%;
+width: 40%;
 
 height: auto;
 }
 
 .text-color {
   color: rgb(247, 87, 87);
+}
+
+.text-colore {
+  color: #FFFFFF;
 }
 
 .text-black {
@@ -377,7 +381,7 @@ a:focus {
 }
 
 #navbar {
-  background: rgb(34, 35, 40);
+   background: rgb(34, 35, 40);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 #navbar li {
@@ -391,7 +395,7 @@ a:focus {
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -447,7 +451,7 @@ a:focus {
 .navbar-toggler {
   padding: 0;
   font-size: 1.5rem;
-  color: #fff;
+  color: #00000;
 }
 .navbar-toggler:focus {
   outline: 0;
@@ -560,17 +564,17 @@ ul.dropdown-menu li {
   }
 }
 .bg-1 {
-  background: url("../images/bg/home-2.jpg") no-repeat 50% 50%;
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915557/bg_piciqw.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
 .bg-2 {
-  background: url("../images/bg/home-5.jpg");
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915557/bg_piciqw.jpg");
   background-size: cover;
 }
 
 .slider {
-  background: url("../images/bg/home-1.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915557/bg_piciqw.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
   padding: 200px 0;
@@ -626,7 +630,7 @@ ul.dropdown-menu li {
   top: 0px;
   width: 45%;
   min-height: 650px;
-  background: url("../images/about/home-8.jpg") no-repeat;
+  background: url("https://www.roopyaa.com/assets_new/images/home-page2.png") no-repeat;
   background-size: cover;
 }
 
@@ -655,7 +659,7 @@ ul.dropdown-menu li {
 }
 
 .bg-counter {
-  background: url("../images/bg/counter.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915689/bg1_uzzqec.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -732,7 +736,7 @@ ul.dropdown-menu li {
 }
 
 .cta {
-  background: url("../images/bg/home-3.jpg") fixed 50% 50%;
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915689/bg1_uzzqec.jpg") fixed 50% 50%;
   background-size: cover;
   padding: 120px 0px;
 }
@@ -791,7 +795,7 @@ ul.dropdown-menu li {
 }
 
 .pricing .btn-solid-border {
-  border-color: #dedede;
+  border-color: #000000;
 }
 .pricing .btn-solid-border:Hover {
   border-color: rgb(247, 87, 87);
@@ -1243,7 +1247,7 @@ h3.quote::before {
 
 .footer {
   padding-bottom: 10px;
-background-image: url(http://codex-themes.com/scalia/wp-content/uploads/2014/12/footer-background-011.jpg);
+background-image: url(https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675921903/yellow-watercolor-paper_cjaw9h.jpg);
 }
 .footer .copyright a {
   font-weight: 600;
@@ -1334,7 +1338,7 @@ color: white;
 }
 @media (max-width: 768px) {
   .navbar-toggler {
-    color: #fff;
+    color: #000000;
   }
   .bg-about {
     display: none;
