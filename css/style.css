@@ -260,12 +260,31 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
   background: rgba(0, 0, 0, 0.8);
 }
 
+.midimg{
+max-width:40%;
+}
+
 #example1 {
   border: 2px solid black	;
   background-image: url(https://img.freepik.com/free-vector/abstract-orange-background-with-lines-halftone-effect_1017-32107.jpg);
   padding: 10px;
   border-radius: 25px;
-  max-width: 90%;
+  max-width: 40%;
+}
+
+@media only screen and (max-width: 550px) {
+  #example1 {
+  border: 2px solid black	;
+  background-image: url(https://img.freepik.com/free-vector/abstract-orange-background-with-lines-halftone-effect_1017-32107.jpg);
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 85%;
+}
+
+.midimg{
+max-width:100%;
+}
+
 }
 
 .responsive {
