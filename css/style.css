@@ -562,6 +562,10 @@ a:focus {
   border: 0;
   border-radius: 0px;
 }
+.float-left {
+    float:left;
+    width:50%; // or 33% for equal width independent of parent width
+}
 @media (max-width: 992px) {
   .dropdown-menu {
     text-align: center;
@@ -570,6 +574,34 @@ a:focus {
     margin: 0;
   }
 }
+
+.float-right-sm {
+ 
+}
+
+.float-right-lg {
+  
+}
+
+
+@media (max-width: 768px) {
+  .float-right-sm {
+    float: right;
+  }
+}
+
+@media (min-width: 769px) {
+  .float-right-lg {
+    float: right;
+  }
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
 .dropdown-menu li:first-child {
   margin-top: 5px;
 }
@@ -655,22 +687,29 @@ ul.dropdown-menu li {
   }
 }
 .bg-1 {
-  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915557/bg_piciqw.jpg") no-repeat 50% 50%;
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675633113/m_zjxhlx.png") no-repeat 50% 50%;
   background-size: cover;
 }
 
 .bg-2 {
-  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915557/bg_piciqw.jpg");
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675633113/m_zjxhlx.png");
   background-size: cover;
 }
 
 .slider {
-  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1675915557/bg_piciqw.jpg") no-repeat;
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1676269829/23Artboard_1-80_twapqp.jpg")no-repeat;
   background-size: cover;
   background-position: 10% 0%;
   padding: 200px 0;
   position: relative;
 }
+
+@media (max-width: 450px) {
+  .slider {
+  background: url("https://res.cloudinary.com/dwgt1fwjg/image/upload/v1676271806/11Asset_1-80_hnkwdh.jpg");
+  }
+}
+
 @media (max-width: 768px) {
   .slider {
     padding: 150px 0;
