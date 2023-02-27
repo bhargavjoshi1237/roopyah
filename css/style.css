@@ -571,10 +571,11 @@ a:focus {
 .navbar-brand {
   color: #fff;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1p;
+  font-family:Rajdhani;
 }
 .navbar-brand span {
-  color: rgb(247, 87, 87);
+  color: rgb(255, 165, 0);
 }
 
 .dropdown-menu {
