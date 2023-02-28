@@ -581,7 +581,7 @@ a:focus {
   color: #fff;
   font-weight: 600;
   letter-spacing: 1p;
-  font-family:Rajdhani;
+  font-family:IBM-Plex-Sans;
 }
 .navbar-brand span {
   color: rgb(255, 165, 0);
@@ -1421,13 +1421,13 @@ background-image: url(http://codex-themes.com/scalia/wp-content/uploads/2014/12/
 .rrrt{
 color: white;
 font-size: 18px;
-font-family:Rajdhani;	
+font-family:IBM-Plex-Sans;	
 }
 
 .rrrs{
 color: black;
 font-size: 18px;
-font-family:Rajdhani;	
+font-family:IBM-Plex-Sans;	
 }
 
 .logo {
