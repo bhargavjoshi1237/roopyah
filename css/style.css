@@ -1008,7 +1008,8 @@ ul.dropdown-menu li {
 }
 
 .contact-form-wrap .form-group {
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+	padding-top: 25px;
   margin: 0px;
 }
 .contact-form-wrap .form-group .form-control {
